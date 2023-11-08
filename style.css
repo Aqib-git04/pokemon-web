@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+   
+}
+body{
+    background-color:  #882b1a;
+}
+
+#navbar {
+    display: block;
+    margin: 0 0 0px 216px;
+}
+.img:hover{
+    transform: scale(1.1);
+    
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    list-style: none;
+    text-decoration: none;
+    padding: 16px;
+    color: blue;
+
+}
+
+li:hover {
+    background-color:  #882b1a;
+    color: rgb(216, 216, 216);
+    transition: 1s;
+    font-size: 19px;
+    border-radius: 20px;
+   border: 1px solid black;
+}
+
+.center {
+
+    display: flex;
+    position: relative;
+    left: 100px;
+
+}
+.center:hover{
+    transform: scale(1.1);
+}
+
+.loginbtn {
+
+    position: relative;
+    right: 216px;
+    border-radius: 12px;
+    width: 60px;
+    color: white;
+    top: 334px;
+    background-color: black;
+    border: none;
+    /* cursor: pointer; */
+
+}
+.loginbtn:hover{
+    background-color: blue;
+    color: azure;
+    font-size: 12px;
+}
+
+
+.searchlogo {
+
+    position: relative;
+    right: 270px;
+    top: 379px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    border: none;
+}
+.searchlogo:hover{
+    background-color: blue;
+    color: azure;
+    font-size: 12px;
+}
+.below{
+    position: relative;
+    left: 97px;
+    bottom: 226px;
+}
+.below:hover{
+    transform: scale(1.1);
+}
+.side{
+    position: relative;
+    bottom: 165px;
+    left: 108px;
+}
+.side:hover{
+    transform: scale(1.1);
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    padding:    0px;
+    /* margin: 120px; */
+    /* height: 200px; */
+   
+}
+.one li{
+    list-style: none;
+    padding: 10px;
+    margin-left: 40px;
+
+}
+.facebook{
+
+list-style: none;
+padding: 10px;
+position: relative;
+top: 23px;
+
+}
+.facebook:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: antiquewhite;
+}
+
+
+.three li{
+    list-style: none;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+
